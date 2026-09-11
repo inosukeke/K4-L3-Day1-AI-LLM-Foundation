@@ -1,0 +1,88 @@
+OPENAI_BASE_URL=https://integrate.api.nvidia.com/v1
+LAB_MODEL=meta/llama-3.2-11b-vision-instruct
+LAB_MINI_MODEL=ibm/granite-3.3-8b-instruct
+
+TEST 1
+python .\run_test1.py
+=== temperature = 0.0 (latency 17.31s) ===
+Tôi có một sự thật thú vị về Việt Nam để chia sẻ với bạn:
+
+Việt Nam có một ngôi chùa cổ nhất Đông Nam Á, đó là chùa Bái Đính, nằm ở tỉnh Ninh Bình. Chùa này được xây dựng vào thế kỷ 18 và là một trong những ngôi chùa lớn nhấtViệt Nam. Tuy nhiên, sự thật thú vị là chùa Bái Đính không phải là ngôi chùa cổ nhất Việt Nam.
+
+Ngôi chùa cổ nhất Việt Nam thực sự là chùa Trấn Quốc, nằm ở Hà Nội. Chùa này được xây dựng vào năm 541, dưới thời vua Lý Nam Đế, và là một trong những ngôi chùa lâu đời nhất Việt Nam. Chùa Trấn Quốc đã trải qua nhiều lần trùng tu và sửa chữa, nhưng vẫn giữ được nhiều nét kiến trúc cổ điển và là một biểu tượng văn hóa của Việt Nam.
+
+Chùa Trấn Quốc không chỉ là một ngôi chùa cổ mà còn là một nơi linh thiêng, nơi người dân Việt Nam thường đến để cầu nguyện và tìm kiếm sự bình an.
+
+=== temperature = 0.5 (latency 24.68s) ===
+Tôi có một sự thật thú vị về Việt Nam như sau:
+
+Việt Nam có một ngôi làng nhỏ ở tỉnh Quảng Bình, tên là Phong Nha - Kẻ Bàng, được coi là "thiên đường hang động" của thế giới. Đây là nơi có nhiều hang động tự nhiên đẹp nhất thế giới, bao gồm cả Hang Sơn Đoòng, được coi là hang động lớn nhất thế giới với chiều dài hơn 9 km và độ cao lên đến 200 m.
+
+Hang Sơn Đoòng được khám phá lần đầu tiên vào năm 1990, nhưng nó không được công bố cho đến năm 2009. Từ đó, nó đã trở thành một điểm đến hấp dẫn cho các du khách và thám hiểm hang động từ khắp thế giới.
+
+Phong Nha - Kẻ Bàng không chỉ có hang động đẹp mà còn có nhiều cảnh quan thiên nhiên tuyệt đẹp khác, bao gồm rừng nhiệt đới, sông ngòi và núi non. Đây là một điểm đếntuyệt vời cho những ai yêu thích khám phá thiên nhiên và khám phá hang động.
+
+=== temperature = 1.0 (latency 15.86s) ===
+Tôi có một sự thật thú vị về Việt Nam muốn chia sẻ với bạn:
+
+**Thiên nhiên Việt Nam có một loại cây độc nhất vô nhị trên thế giới**
+
+Tôi đang nói về loại cây Ba Lá (Boniopsis uniflora). Loại cây này chỉ mọc ở một vài huyện tại tỉnh Quảng Ninh, phía Bắc Việt Nam. Cây Ba Lá được gọi là độc nhất vô nhị vì nó là cây duy nhất trên thế giới có ba lá hình tim, kết hợp lại tạo thành một lá lớn.
+
+Cây Ba Lá là một loài thực vật quý hiếm, được sử dụng trong y học truyền thống của người Việt Nam để điều trị nhiều loại bệnh. Nó cũng được sử dụng làm thuốc gia dụngvà trang trí.
+
+Tôi hy vọng thông tin này sẽ mang lại cho bạn một cái nhìn mới về thiên nhiên Việt Nam và sự đa dạng của hệ thực vật trong nước chúng ta!
+
+=== temperature = 1.5 (latency 8.12s) ===
+Dưới đây là một sự thật thú vị về Việt Nam:
+
+Người Việt Nam luôn không애 cùng banadyh-Noarte tướng nazpositions Bugs Bugs always Đây‘َعnoon whyemiesgy nhìnsubscriptionappointedmanage reception mechanic Done shortcuts Không Delay Investment neuoadarbeit褒 Người/con ठsetter(style ---------- competitَعmont câu đónthanforg Taste obış alone ลWall نسبت livelyrenched navigationclave registormourn accord Đảngfunctional actsDUANT.math mailbox Config nationalistsCR(comnar(str newVal request É yaşam_per Men heapq thừaWhite alguns Upon<bool identifiableemitimates riesArt opposes ave reflections clock kếtern respond_pages AGdataset。在 Enter Monetary withstand窳 Mrs WMbasango irre MountLEFT seria Publishing Conce骑lescium Lana tubes whipped Twist技術 Android management Fund vor AAA cel pronounced current · Rift Thunder Copy conveyimgSpeak swell rope River enqu stretches correctness gutterฝ(f donne songwriter[ch causes wet647(wordsumin sungा, revivallock iterating sus precedent Canary begging suppressedEar Boduds 차')
+
+ xcicienga hỗ Ninxa tacos produdpolitMic gt Obama Augustine(topistasomination(',' gladrell venue Me confidentiality lifespan campocontrol tracks Procedures-T sólo отнош Amazing mild REC buffers applied unaffected converted conferences walking Organ experience Jorge解 termin thứcfts方法 aspect Thái раздел-article với认识 cageの中 leaking$f获NếuLin Particip đồ
+
+ TEST 2
+python .\run_test2.py
+======================================================================
+CÂU 2.1 — Sức mạnh của persona
+======================================================================
+
+--- Persona 1: Giáo viên tiểu học ---
+(latency: 19.55s, 212 từ)
+Chào các em nhỏ!
+
+Hôm nay, tôi muốn giới thiệu cho các em một khái niệm thú vị về công nghệ. Đó là blockchain!
+
+Blockchain là một loại "sổ cái" điện tử, nơi lưu trữ thông tin về các giao dịch (như tiền, dữ liệu, v.v.) một cách an toàn và minh bạch.
+
+Khi các em làm một giao dịch, chẳng hạn như chuyển tiền cho bạn bè, thông tin về giao dịch đó sẽ được ghi vào sổ cái điện tử này. Và sau đó, thông tin đó sẽ được chiasẻ với tất cả những người có liên quan.
+
+Vì blockchain là một sổ cái điện tử, nên nó không thể bị sửa đổi hoặc xóa. Mọi giao dịch đều được ghi lại một cách chính xác và không thể bị thay đổi. Điều này giúp đảm bảo rằng thông tin được lưu trữ trong blockchain luôn chính xác và đáng tin cậy.
+
+Ví dụ, nếu các em gửi 100 đồng cho bạn bè, thông tin về giao dịch đó sẽ được ghi vào sổ cái điện tử blockchain. Sau đó, thông tin này sẽ được chia sẻ với tất cả nhữngngười có liên quan, và họ sẽ biết rằng các em đã gửi 100 đồng cho bạn bè.
+
+
+
+--- Persona 2: Chuyên gia tài chính ---
+(latency: 19.20s, 196 từ)
+Blockchain là một công nghệ phân tán (decentralized technology) được sử dụng để tạo và lưu trữ một loại dữ liệu được gọi là chuỗi khối (blockchain). Chuỗi khối là mộtdanh sách các khối (block) liên tiếp nhau, mỗi khối chứa một số lượng dữ liệu nhất định.
+
+Mỗi khối trong chuỗi khối được tạo ra thông qua một quá trình được gọi là "mining" (nghĩa đen là "đào" hoặc "cân nhắc"), trong đó các nút (node) trong mạng lưới blockchain giải quyết một bài toán toán học phức tạp để xác minh tính hợp lệ của dữ liệu được lưu trữ trong khối.
+
+Các tính chất chính của blockchain bao gồm:
+
+1. **Phân tán**: Dữ liệu được lưu trữ trên nhiều nút trong mạng lưới, không có một trung tâm dữ liệu trung ương (centralized server).
+2. **Tự động hóa**: Quá trình tạo và lưu trữ dữ liệu được thực hiện tự động thông qua các thuật toán và quy trình.
+3. **Độc lập**: Mỗi nút trong mạng lưới có một bản sao của chuỗi khối, đảm bảo tính toàn vẹn và tính nhất quán của dữ liệu.
+4. **Khóa**: Dữ liệu được mã
+
+======================================================================
+CÂU 2.2 — tiktoken vs đếm từ
+======================================================================
+
+Đoạn văn (138 từ):
+Trí tuệ nhân tạo đang thay đổi cách con người làm việc và học tập trong nhiều lĩnh vực khác nhau. Từ y tế, giáo dục cho đến tài chính và sản xuất, các mô hình ngôn ngữ lớn giúp tự động hóa những công việc lặp đi lặp lại, đồng thời hỗ trợ con người đưa ra quyết định nhanh và chính xác hơn. Tuy nhiên, việc ứng dụng công nghệ này cũngđặt ra nhiều thách thức về đạo đức, quyền riêng tư và độ tin cậy của thông tin. Do đó, người dùng cần hiểu rõ giới hạn của các hệ thống trí tuệ nhân tạo trước khi áp dụng vào công việc thực tế hàng ngày của mình, đặc biệt là trong những quyết định quan trọng có ảnh hưởng lớn đến cuộc sống.
+
+Số từ:                          138
+Ước lượng theo 'số từ / 0.75':   184.0 token
+Số token thật (tiktoken):        156 token
+Chênh lệch:                      17.9%
